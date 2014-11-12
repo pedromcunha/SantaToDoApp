@@ -1,0 +1,123 @@
+/*FONTS*/
+@font-face {
+    font-family: Saint Nick;
+    src: url(assets/stnicholas.ttf);
+}
+
+/*Bootstrap customization*/
+.container {
+	width: 500px;
+}
+
+h1 {
+	font-family: 'Saint Nick';
+	padding-top: 10px;
+}
+h4 {
+	font-family: 'Saint Nick';
+	text-align: center;
+}
+
+.list-group {
+	margin-left: -15px;
+}
+
+.list-group-item {
+	background-color: #AA0114;
+	font-size: 16px;
+	border: transparent;
+	border-top: 1px solid #960414;
+	border-bottom: 1px solid #960414;
+}
+.list-group-item a i{
+	margin: 0px 10px;
+}
+
+.list-group-item a:hover {
+	color: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+.btn-default {
+	background-color: #3C8D0D;
+	color: #fff;
+	border-color: #3C8D0D;
+}
+
+.btn-default:hover {
+	background-color: #fff;
+	color: #3C8D0D;
+	border-color: #fff;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+    transition: color 1s;
+}
+
+/*Styles*/
+header {
+	background-color: #000000;
+}
+
+header small:first-child {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+header small:last-child {
+	margin-left: 128px;
+}
+
+footer {
+	margin-bottom: 20px;
+	box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
+	-webkit-box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
+	-moz-box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
+
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+}
+
+footer div {
+	text-align: center;
+	background-color: #3C8D0D;
+	height: 60px;
+
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+}
+
+.fa-gift, .fa-wrench, .fa-bell {
+	font-size: 40px;
+	margin-top: 10px;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+    transition: color 1s;
+}
+
+.fa-gift:hover, .fa-wrench:hover, .fa-bell:hover {
+	color: #ffffff;
+}
+
+.active {
+	color: #ffffff;
+}
+
+#app-frame {
+	background-color: #AA0114;
+	height: 100%;
+	margin-bottom: -20px;
+	color: #ffffff;
+}
+
+#children {
+	margin-left: 15px;
+}
+
+#children input {
+	width: 285px;
+	margin-right: 95px;
+}
