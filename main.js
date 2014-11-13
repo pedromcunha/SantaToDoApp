@@ -37,5 +37,4 @@ $('#children').find('a').bind('click', function() {
 		clickedIcon.addClass('fa-thumbs-down');
 		$(this).parent().find('.fa-thumbs-o-up').remove();
 	}
-	$(this).find('i').addClass('active');
 });
