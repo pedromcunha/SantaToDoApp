@@ -7,6 +7,12 @@
 /*Bootstrap customization*/
 .container {
 	width: 500px;
+	background-color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 h1 {
@@ -33,7 +39,7 @@ h4 {
 .list-group-item .count {
 	background-color: #3C8D0D;
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 	width: 30px;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -56,7 +62,8 @@ a {
 	background-color: #3C8D0D;
 	color: #fff;
 	border-color: #3C8D0D;
-	font-weight: 400;
+	font-weight: 500;
+	text-shadow: none;
 }
 
 .btn-default:hover {
@@ -69,6 +76,10 @@ a {
 }
 
 /*Styles*/
+html {
+	background-image: url("assets/snowflakes_wallpaper.jpg");
+}
+
 header {
 	background-color: #000000;
 }
@@ -90,6 +101,7 @@ footer {
 	border-radius: 0px 0px 5px 5px;
 	-webkit-border-radius: 0px 0px 5px 5px;
 	-moz-border-radius: 0px 0px 5px 5px;
+	margin-top: -21px;
 }
 
 footer div {
@@ -105,6 +117,7 @@ footer div {
 .fa-gift, .fa-wrench, .fa-bell {
 	font-size: 40px;
 	margin-top: 10px;
+	color: #000000;
 	-webkit-transition: color 1s;
 	-moz-transition: color 1s;
     transition: color 1s;
@@ -130,6 +143,6 @@ footer div {
 }
 
 #children input, #reminders input {
-	width: 285px;
-	margin-right: 95px;
+	width: 360px;
+	margin-right: 20px;
 }
